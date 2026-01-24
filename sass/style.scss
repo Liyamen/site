@@ -1,0 +1,270 @@
+@import"normalizes.scss";
+@import"resets.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+// Импорт шрифтов
+@font-face{
+    font-family: "MontserratT";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "RobotoFlexX";
+    src: url(../fonts/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+    font-weight: regular;
+    font-style: normal;
+}
+
+html{
+    font-family: "RobotoFlexX";
+    font-weight: regular;
+}
+
+.container{
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.strip{
+    display: flex;
+    justify-content: center;
+    min-height: 110px;
+}
+
+.main-section{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 800px;
+    padding-top: 90px;
+    background: linear-gradient(180deg, #feb47b 0%, #986c4a 100%);
+    &__title{
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-family: "MontserratT";
+        font-weight: bold;
+    }
+    &__text{
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: -0.2px;
+        text-align: justify;
+        margin-right: 103px;
+    }
+    &__image{
+        width: 100%; 
+        max-width: 500px;
+        height: auto;
+    }
+    &__center-wrapper{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 35px;
+    }
+    &__icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    &__elipse{
+        position: absolute;
+        top: -123px;
+        left: -106px;
+        width: 272px;
+        height: 272px;
+    }
+    &__triangle{
+        position: absolute;
+        right: -95px;
+        bottom: 27px;
+    }
+}
+
+.icon{
+    margin-right: 188px;
+    &:last-child{
+        margin-right: 0px;
+    }
+    img:hover{
+        border-radius: 150px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    }
+}
+
+// Вторая секция - содержание
+
+.contents-section{
+    position: relative;
+    background: #d9d9d9;
+    height: 283px;
+    padding-top: 63px;
+    &__title{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    ul{
+        list-style: disc;
+        padding-left: 40px;
+        li{
+            line-height: 25px;
+        }
+    }
+    &__square{
+        position: absolute;
+        top: -27px;
+        left: -204px;
+    }
+}
+
+// Штмл секция
+
+.html-section{
+    min-height: 900px;
+    background: linear-gradient(180deg, #e3e3e3 0%, #a9a9a9 100%);
+    &__strip{
+        background: #f67c01;
+        margin-bottom: 55px;
+    }
+    &__title{
+        margin-bottom: 42px;
+    }
+    &__txt{
+        margin-bottom: 25px;
+    }
+    &__image{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        img{
+            width: 876px;
+            height: auto;
+            border-radius: 15px;
+        }
+    }
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "MontserratT";
+    font-weight: bold;
+}
+
+.txt{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.example-box{
+
+    &__text-examp{
+        margin-bottom: 25px;
+        p{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+    &__img-examp{
+        width: 100%; 
+        max-width: 550px;
+        height: auto;
+        border-radius: 15px;
+        // пометка: рассмотр на исправление строки снизу и всего блока
+        margin-bottom: 20px; 
+    }
+}
+
+.css-section{
+    min-height: 1002px;
+    background: linear-gradient(180deg, #e3e3e3 0%, #a9a9a9 100%);
+    &__content{
+        margin-bottom: 25px;
+    }
+    &__strip{
+        background: #334155;
+        margin-bottom: 44px;
+   } 
+    &__image{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        img{
+            width: 600px;
+            height: auto;
+            border-radius: 15px;
+        }
+   }
+}
+
+.css-example{
+        &__text-examp{
+            margin-bottom: 25px;
+            p{
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+        img{
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+   }
+
+.js-section{
+    min-height: 900px;
+    background: linear-gradient(180deg, #e3e3e3 0%, #a9a9a9 100%);
+    &__strip{
+        background: #F0DB4E;
+        height: 110px;
+        margin-bottom: 44px;
+    }
+    &__image{
+        display: flex;
+        justify-content: center;
+        // пометка: рассмотр на исправление строки снизу и всего блока
+        margin-bottom: 20px; 
+    }
+    img{
+        width: 100%; 
+        max-width: 650px;
+        height: auto;
+        border-radius: 15px;
+    }
+}
+
+.js-example{
+    &__text-examp{
+            margin-bottom: 25px;
+            p{
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+}
+
+.examp-video{
+    max-width: 620px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    width: 100%;
+    margin-bottom: 50px;
+}

@@ -3,68 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/normalize.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    <title>Выпечка вкусно и точка!</title>   
+    <link rel="stylesheet" href="src/style.css">
+    <title>Индивидуальный проект</title>
 </head>
 <body>
-    
-    <header>
-        <img src="src/img/01-Logo.svg" alt="логотип">
-    </header>
-    <nav>
-        <ul>
-            <li> <a href="#">О НАС</a></li>
-            <li> <a href="#">НОВОСТИ</a></li>
-            <li> <a href="#">МЕНЮ</a></li>
-            <li> <a href="#">КОНТАКТЫ</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section class="section-about">
-            <div class="section-about__block">
-                <div class="inside-section-about__block">
-                    <h1>Специальный заказ</h1>
-                    <p class="block-p">В нашей пекарне каждый день начинается с аромата свежеиспечённого хлеба. Мы замешиваем тесто вручную, даём ему выстояться и с любовью выпекаем каждую булочку. Наши пироги напоминают о домашнем уюте, а сдобные изделия радуют с первого укуса. Всё только из натуральных ингредиентов — без спешки, без лишнего, по старинным рецептам.</p>
+    <section class="main-section">
+
+        <div class="container">
+
+            <h1 class="main-section__title">Языки для создания сайтов: HTML, CSS и JavaScript — Основы и Современные Практики</h1>
+            <div class="main-section__center-wrapper">
+                <p class="main-section__text txt">Веб-разработка — это неотъемлемая часть современного интернета, и для создания сайтов используются три основных языка: HTML, CSS и JavaScript. Эти технологии позволяют создавать страницы, делать их красивыми и интерактивными.
+    HTML отвечает за структуру страницы, CSS — за внешний вид, а JavaScript добавляет динамичность и интерактивность. Вместе они обеспечивают основу    для любого современного сайта.
+    Сегодня знание этих языков является обязательным для веб-разработчиков, а современные фреймворки и библиотеки делают работу с ними еще проще и  эффективнее.</p>
+
+                <img class="main-section__image" src="img\image 1.png" alt="image 1">
+
+            </div>
+
+            <!-- Кнопки-иконки -->
+
+            <div class="main-section__icons">
+                <div class="icon">
+                    <a href="#html"><img src="icons\Intersect1.svg" alt="html"></a>
+                </div>
+                <div class="icon">
+                    <a href="#css"><img src="icons\Intersect2.svg" alt="css"></a>
+                </div>
+                <div class="icon">
+                    <a href="#js"><img src="icons\Intersect3.svg" alt="js"></a>
                 </div>
             </div>
-        </section>
-        <section class="section-description">
-            <div class="section-description__icons"> 
-                <img src="src/icons/01-Icon.svg" alt="01-Иконка">
-                <img src="src/icons/02-Icon.svg" alt="02-Иконка">
-                <img src="src/icons/03-Icon.svg" alt="03-Иконка">
-            </div>
-            <div class="section-description__text-box">
-                <h2 class="section-description__h2">
-                    Выпечка - <span class="red">это</span> вкусно
-                </h2>
-                <p class="section-description__p">
-                    Наша выпечка — это не просто хлеб и булочки, это искусство. Каждое утро мы начинаем с отборной муки, свежих яиц и натурального масла, чтобы дарить вам ароматные круассаны, воздушные эклеры и золотистые багеты.
 
-С любовью замешиваем тесто, выстаиваем его под тёплым пледом, а потом выпекаем до идеальной корочки. Выпечка "Вкусно и точка!" — это традиции, передаваемые через поколения, и капля настоящего уюта в каждом кусочке.
+        </div>
+        <!-- Фигуры секции -->
+        <img class="main-section__elipse" src="icons\Subtract-elipse.svg" alt="круг">
+        <img class="main-section__triangle" src="icons\Subtract треугольник.svg" alt="">
 
-Заходите к нам за свежей сдобой, попробуйте пирожные с заварным кремом или легендарные сырные улитки. Мы уверены — вы захотите вернуться!
-                </p>
-            </div>
-        </section>
-        <section class="section-map">
-            <h3 class="section-map__h3">ЗАКАЗАТЬ</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21834.663447186213!2d29.58637267431642!3d46.837135599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c9037a0d19da35%3A0x6a15be04798ef513!2z0JLQsNC90LjQvSDRhdC70LXQsQ!5e0!3m2!1sru!2s!4v1752759262826!5m2!1sru!2s" width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-    </main>
-    <footer>
-        <nav>
-            <div class="line"></div>
+    </section>
+    <!-- Информационная секция -->
+    <section class="contents-section">
+
+        <div class="container">
+            <h2 class="contents-section__title">Содержание</h2>
             <ul>
-                <li> <a href="#">О НАС</a></li>
-                <li> <a href="#">НОВОСТИ</a></li>
-                <li> <a href="#">МЕНЮ</a></li>
-                <li> <a href="#">КОНТАКТЫ</a></li>
+                <li>HTML — структура и основа веб-страниц.</li>
+                <li>CSS — внешний вид и оформление интерфейса.</li>
+                <li>JavaScript — интерактивность и динамика сайта.</li>
             </ul>
-        </nav>
-    </footer>
+        </div>
+        <!-- Фигура секции -->
+        <img class="contents-section__square" src="icons\Subtract квадрат.svg" alt="">
 
+    </section>
+    <!-- HTML секция -->
+    <section class="html-section">
+
+        <div id="html" class="html-section__strip strip">
+            <img src="icons\html img.svg" alt="html">
+        </div>
+
+        <div class="container">
+            <!-- секция текста -->
+            <div class="html-section__content">
+                <h3 class="html-section__title title">HTML: структура страницы.</h3>
+                <p class="html-section__txt txt">Каждый раз заходя на любой сайт вы видите веб-страницу, которая состоит из блоков текста, картинок, кнопок и других элементов. Все эти элементы называются разметкой и описываются с помощью языка HTML (HyperText Markup Language) эта аббревиатура переводится как “язык гипертекстовой разметки”. Он представляет собой набор тегов, которые объявляют и описывают каждый элемент на странице. Браузеры интерпретируют HTML-код и отображают его в виде веб-страницы. Теги могут содержать в себе другие теги, формируя таким образом структуру страницы. Тег <html> является контейнером, который заключает в себе все содержимое веб-страницы. Внутри него находятся еще два обязательных тега: <head>, который содержит метаданные страницы (описание, название, ссылки на стили CSS, скрипты и др), которые не отображаются на самой странице и <body> в котором описывается видимое содержимое страницы. Создадим новый файл с названием index и расширением html, после чего заполним его базовыми тегами. Код “пустой” страницы выглядит так:</p>
+            </div>
+
+            <div class="html-section__image">
+                <img src="img\example-html.png" alt="html example">
+            </div>
+
+            <div class="example-box box">
+                <div class="example-box__text-examp">
+                    <p>Вот так выглядит на странице:</p>
+                </div>
+                <img class="example-box__img-examp" src="img\пример верстки без стилей.png" alt="html without styles">
+            </div>
+
+        </div>
+    </section>
+    <!-- CSS секция -->
+    <section class="css-section">
+        <!-- текст секции -->
+        <div id="css" class="css-section__strip strip">
+            <img src="icons\css img.svg" alt="css">
+        </div>
+
+        <div class="container">
+            <div class="css-section__content">
+                <h3 class="css-section__title title">CSS: стилизация элементов страницы</h3>
+                <p class="css-section__txt txt">CSS (Cascading Style Sheets) — это язык, который отвечает за внешний вид сайта и делает его удобным, понятным и визуально привлекательным. Если HTML задаёт структуру страницы, то CSS придаёт ей форму, стиль и характер.
+
+С помощью CSS настраивается всё, что видит пользователь: цвета и фоны, шрифты и размеры текста, отступы, расположение блоков, анимации и адаптация под разные устройства. Именно CSS превращает набор элементов в цельный интерфейс, которым приятно пользоваться.
+
+Главная идея CSS — разделение содержания и оформления. Контент остаётся чистым и логичным, а стили управляются отдельно, что упрощает поддержку сайта и позволяет быстро менять дизайн без переписывания HTML-кода.</p>
+            </div>
+
+            <div class="css-section__image">
+                <img src="img\example-css.png" alt="css example">
+            </div>
+            <div class="css-example box">
+                <div class="css-example__text-examp">
+                    <p>Вот так выглядит на странице:</p>
+                    
+                </div>
+                <img src="img\пример верстки со стилями.png" alt="css style example">
+            </div>
+        </div>
+    </section>
+    <!-- java script секция -->
+    <section class="js-section">
+
+        <div id="js" class="js-section__strip strip">
+            <img src="icons\js image.svg" alt="java script">
+        </div>
+
+        <div class="container">
+
+            <div class="js-section__content">
+                <h3 class="js-section__title title">JavaScript: добавляем интерактивность</h3>
+                <p class="js-section__txt txt">JavaScript (JS) — это язык программирования, который отвечает за логику и поведение веб-страницы. Он управляет тем, как сайт реагирует на действия пользователя и как элементы страницы изменяются со временем.
+
+Если HTML задаёт структуру, а CSS — внешний вид, то JavaScript делает сайт интерактивным. С его помощью обрабатываются клики, ввод текста, прокрутка, загрузка данных и другие события. Страница может изменять содержимое без перезагрузки, показывать уведомления, открывать меню и динамически обновлять информацию.</p>
+            </div>
+
+            <div class="js-section__image">
+                <img src="img\js-examp.png" alt="js example">
+            </div>
+            <div class="js-example box">
+                <div class="js-example__text-examp">
+                    <p>Вот так выглядит на странице:</p>
+                </div>
+                <video class="examp-video" controls>
+                    <source src="video\Example — 22 янв., 20_37 - Trim.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+
+        </div>
+
+    </section>
 </body>
 </html>
