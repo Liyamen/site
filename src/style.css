@@ -629,6 +629,10 @@ html {
   margin-bottom: 25px;
 }
 
+.txt-li{
+  font-size: 23px;
+}
+
 .box {
   display: -webkit-box;
   display: -ms-flexbox;
