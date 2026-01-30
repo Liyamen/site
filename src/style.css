@@ -577,6 +577,7 @@ html {
 }
 .contents-section ul li {
   line-height: 25px;
+  font-size: 23px;
 }
 .contents-section__square {
   position: absolute;
@@ -627,10 +628,6 @@ html {
   font-size: 23px;
   line-height: 28px;
   margin-bottom: 25px;
-}
-
-.txt-li{
-  font-size: 23px;
 }
 
 .box {
