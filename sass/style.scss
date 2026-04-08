@@ -60,14 +60,14 @@ html{
         margin-right: 103px;
     }
     &__image{
-        width: 100%; 
-        max-width: 400px;
-        height: auto;
+        width: 400px; 
+        height: 220px;
     }
     &__center-wrapper{
         display: flex;
         flex-direction: row;
         margin-bottom: 35px;
+        align-items: center;
     }
     &__icons{
         display: flex;

@@ -417,14 +417,14 @@ html {
   margin-right: 103px;
 }
 .main-section__image {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
+  width: 400px;
+  height: 220px;
 }
 .main-section__center-wrapper {
   display: flex;
   flex-direction: row;
   margin-bottom: 35px;
+  align-items: center;
 }
 .main-section__icons {
   display: flex;
