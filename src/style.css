@@ -42,8 +42,7 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box; /* 1 */
+  box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
@@ -212,8 +211,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
@@ -241,8 +239,7 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
 
@@ -365,8 +362,7 @@ table {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -393,12 +389,8 @@ html {
 }
 
 .strip {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   min-height: 110px;
 }
 
@@ -408,7 +400,6 @@ html {
   width: 100%;
   min-height: 800px;
   padding-top: 90px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#feb47b), to(#986c4a));
   background: linear-gradient(180deg, #feb47b 0%, #986c4a 100%);
 }
 .main-section__title {
@@ -431,26 +422,14 @@ html {
   height: auto;
 }
 .main-section__center-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin-bottom: 35px;
 }
 .main-section__icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  justify-content: center;
 }
 .main-section__elipse {
   position: absolute;
@@ -473,8 +452,7 @@ html {
 }
 .icon img:hover {
   border-radius: 150px;
-  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .contents-section {
@@ -504,7 +482,6 @@ html {
 
 .html-section {
   min-height: 900px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#a9a9a9));
   background: linear-gradient(180deg, #e3e3e3 0%, #a9a9a9 100%);
 }
 .html-section__strip {
@@ -518,12 +495,8 @@ html {
   margin-bottom: 25px;
 }
 .html-section__image {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: 25px;
 }
 .html-section__image img {
@@ -548,19 +521,10 @@ html {
 }
 
 .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .example-box__text-examp {
@@ -580,7 +544,6 @@ html {
 
 .css-section {
   min-height: 1002px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#a9a9a9));
   background: linear-gradient(180deg, #e3e3e3 0%, #a9a9a9 100%);
 }
 .css-section__content {
@@ -591,12 +554,8 @@ html {
   margin-bottom: 44px;
 }
 .css-section__image {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: 25px;
 }
 .css-section__image img {
@@ -619,7 +578,6 @@ html {
 
 .js-section {
   min-height: 900px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#a9a9a9));
   background: linear-gradient(180deg, #e3e3e3 0%, #a9a9a9 100%);
 }
 .js-section__strip {
@@ -628,12 +586,8 @@ html {
   margin-bottom: 44px;
 }
 .js-section__image {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 .js-section img {
@@ -654,8 +608,7 @@ html {
 .examp-video {
   max-width: 620px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   width: 100%;
   margin-bottom: 50px;
-}
+}/*# sourceMappingURL=style.css.map */
