@@ -282,13 +282,13 @@ html{
     }
 
     .main-section {
-        padding-top: 60px;
+        padding-top: 35px;
         min-height: auto;
-        padding-bottom: 60px;
+        padding-bottom: 35px;
         &__center-wrapper{
             display: flex;
             flex-direction: column;
-            margin-bottom: 25px;
+            margin-bottom: 35px;
         }
         &__title {
             font-size: 28px;
@@ -302,8 +302,8 @@ html{
         }
 
         &__image {
-            width: 330px;
-            height: 165px;
+            width: auto;
+            height: auto;
         }
         &__elipse{
             width: 222px;
