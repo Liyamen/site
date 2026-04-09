@@ -285,25 +285,46 @@ html{
         padding-top: 60px;
         min-height: auto;
         padding-bottom: 60px;
-
+        &__center-wrapper{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 25px;
+        }
         &__title {
             font-size: 28px;
             margin-bottom: 20px;
         }
 
         &__text {
-            font-size: 16px;
+            font-size: 18px;
             margin-right: 40px;
+            letter-spacing: 0px;
         }
 
         &__image {
             width: 330px;
-            height: auto;
+            height: 165px;
+        }
+        &__elipse{
+            width: 222px;
+            height: 222px;
+        }
+        &__triangle{
+            right: -145px;
+        }
+        &__icons{
+            img{
+                width: 180px;
+                height: 180px;
+            }
         }
     }
 
     .icon {
         margin-right: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .contents-section {
@@ -366,6 +387,7 @@ html{
 
         &__triangle {
             display: none;
+            right: -145px;
         }
     }
 
