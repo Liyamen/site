@@ -29,7 +29,7 @@ html{
     position: relative;
     max-width: 1140px;
     margin: 0 auto;
-    
+    z-index: 2;
 }
 
 .strip{
@@ -80,6 +80,7 @@ html{
         left: -106px;
         width: 272px;
         height: 272px;
+        z-index: 1;
     }
     &__triangle{
         position: absolute;
@@ -296,7 +297,7 @@ html{
         }
 
         &__image {
-            width: 280px;
+            width: 330px;
             height: auto;
         }
     }
