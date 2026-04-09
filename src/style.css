@@ -663,6 +663,16 @@ html {
     height: auto;
     padding: 40px 0;
   }
+  .contents-section__title {
+    font-size: 28px;
+  }
+  .contents-section__square {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: -140px;
+  }
   .contents-section ul li {
     font-size: 18px;
   }
