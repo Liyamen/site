@@ -281,6 +281,17 @@ html{
         padding: 0 20px;
     }
 
+    .title{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .txt{
+        font-size: 16px;
+    }
+
+
+
     .main-section {
         padding-top: 35px;
         min-height: auto;
@@ -344,13 +355,44 @@ html{
             font-size: 18px;
         }
     }
-
+    .strip{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        min-height: 70px;
+        img{
+            max-height: 70px;
+        }
+    }
     .html-section__image img {
         width: 100%;
     }
 
     .css-section__image img {
         width: 100%;
+    }
+    .js-section__strip{
+        min-height: 70px;
+        height: 70px;
+    }
+
+    .example-box__text-examp{
+        p{
+            font-size: 25px;
+        }
+    }
+
+    .css-example__text-examp{
+        p{
+           font-size: 25px; 
+        }
+    }
+
+    .js-example__text-examp{
+        p{
+            font-size: 25px;
+        }
     }
 }
 
