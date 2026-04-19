@@ -530,8 +530,22 @@ html{
         }
     }
 
+    .main-section__icons{
+        flex-direction: column;
+    }
+
+    .main-section__icons img{
+        width: 160px;
+        height: auto;
+    }
+
     .icon {
-        margin-right: 20px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .icon:last-child{
+        margin-bottom: 0;
     }
 
     .title {
