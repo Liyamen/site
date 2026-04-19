@@ -617,7 +617,7 @@ html {
 
 @media (max-width: 1024px) {
   .container {
-    padding: 0 20px;
+    padding: 0 25px;
   }
   .title {
     font-size: 28px;
@@ -678,7 +678,7 @@ html {
     height: 200px;
     position: absolute;
     top: 20px;
-    left: -140px;
+    left: -150px;
   }
   .contents-section ul li {
     font-size: 18px;
@@ -694,17 +694,26 @@ html {
     max-height: 70px;
   }
   .html-section__image img {
-    width: 100%;
+    width: 700px;
   }
   .css-section__image img {
-    width: 100%;
+    width: 600px;
   }
   .js-section__strip {
     min-height: 70px;
     height: 70px;
   }
+  .js-section img {
+    max-width: 620px;
+  }
+  .example-box__img-examp {
+    max-width: 450px;
+  }
   .example-box__text-examp p {
     font-size: 25px;
+  }
+  .css-example img {
+    width: 450px;
   }
   .css-example__text-examp p {
     font-size: 25px;
