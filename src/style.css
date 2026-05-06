@@ -835,6 +835,9 @@ html {
   .contents-section ul li {
     font-size: 14px;
   }
+  .css-example img {
+    width: 433px;
+  }
   .example-box__text-examp p,
   .css-example__text-examp p,
   .js-example__text-examp p {
