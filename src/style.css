@@ -836,7 +836,7 @@ html {
     font-size: 14px;
   }
   .css-example img {
-    width: 433px;
+    width: 100%;
   }
   .example-box__text-examp p,
   .css-example__text-examp p,
