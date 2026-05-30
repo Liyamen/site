@@ -70,7 +70,7 @@ html{
         align-items: center;
     }
     &__icons{
-        display: flex;
+        display: none;
         flex-direction: row;
         justify-content: center;
     }
@@ -80,7 +80,7 @@ html{
         left: -106px;
         width: 272px;
         height: 272px;
-        z-index: 1;
+        z-index: 0;
     }
     &__triangle{
         position: absolute;
@@ -409,7 +409,7 @@ html{
 }
 
 // Мобильный
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .container {
         padding: 0 16px;
     }
@@ -451,6 +451,41 @@ html{
         &__triangle {
             display: none;
             right: -145px;
+        }
+    }
+
+    .hamburger{
+        position: absolute;
+        z-index: 1;
+        top: 7px;
+        right: 45%;
+        width: 50px;
+        height: 31px;
+        span{
+            display: block;
+            transition: 1s all;
+            height: 5px;
+            width: 100%;
+            background: black;
+            margin-bottom: 8px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .hamburger_active{
+        span{
+            margin-bottom: -4px;
+            &:nth-child(1){
+                transform: translateY(12px) rotate(-45deg);
+            }
+            &:nth-child(2){
+                display: none;
+            }
+            &:nth-child(3){
+                transform: translateY(12px) rotate(45deg);
+            }
         }
     }
 
@@ -519,7 +554,7 @@ html{
 }
 
 // Маленький мобильный
-@media (max-width: 480px) {
+@media (max-width: 475px) {
     .main-section {
         &__title {
             font-size: 18px;
