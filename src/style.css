@@ -726,6 +726,14 @@ html {
   .container {
     padding: 0 16px;
   }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 41px;
+    width: 100%;
+    background: #feb47b;
+  }
   .main-section {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -754,17 +762,15 @@ html {
     height: 160px;
     top: -60px;
     left: -50px;
+    z-index: 0;
   }
   .main-section__triangle {
     display: none;
     right: -145px;
   }
   .hamburger {
-    position: absolute;
     z-index: 1;
-    top: 7px;
-    right: 45%;
-    width: 50px;
+    width: 40px;
     height: 31px;
   }
   .hamburger span {
@@ -779,7 +785,7 @@ html {
     margin-bottom: 0;
   }
   .hamburger_active span {
-    margin-bottom: -4px;
+    margin-bottom: -5px;
   }
   .hamburger_active span:nth-child(1) {
     transform: translateY(12px) rotate(-45deg);
