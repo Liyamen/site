@@ -29,7 +29,7 @@ html{
     position: relative;
     max-width: 1140px;
     margin: 0 auto;
-    z-index: 2;
+    // z-index: 2;
 }
 
 .strip{
@@ -412,7 +412,6 @@ html{
 @media (max-width: 767px) {
     .container {
         position: relative;
-        z-index: 1;
         padding: 0 16px;
     }
 
@@ -421,7 +420,7 @@ html{
     // }
 
     header{
-        position: relative;
+        position: fixed;
         z-index: 1;
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
         display: flex;
@@ -435,7 +434,8 @@ html{
     }
 
     .main-section {
-        padding-top: 20px;
+        max-height: 590px;
+        padding-top: 110px;
         padding-bottom: 1px;
         overflow: visible;
         &__title {
@@ -444,7 +444,14 @@ html{
         }
 
         &__icons{
-            display: none;
+            position: fixed;
+            right: -100%;
+            transition: 0.6s all;
+        }
+
+        &__icons img{
+            width: 150px;
+            height: 150px;
         }
 
         &__center-wrapper {
@@ -530,7 +537,7 @@ html{
     }
 
     .icon {
-        // margin-right: 40px;
+        margin-right: 0;
     }
 
     .contents-section {
@@ -591,7 +598,7 @@ html{
     .examp-video {
         max-width: 100%;
     }
-}
+
 
 // Маленький мобильный
 @media (max-width: 475px) {
